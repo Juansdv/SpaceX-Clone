@@ -26,7 +26,7 @@ font-family:D-DIN-Bold;
     display: flex;
     justify-content: space-evenly;
     color: white;
-    font-size: 1.3vw;
+    font-size: 1.3vmax;
 }
 
 .nav-content1{
@@ -35,6 +35,7 @@ font-family:D-DIN-Bold;
     gap: 1rem;
     text-align: center;
 }
+
 
 .nav-content1 h1{
     letter-spacing: 0.2em;
@@ -69,7 +70,7 @@ font-family:D-DIN-Bold;
 .upcoming-launch-container{
     color: white;
     margin: 50px;
-    font-size: 2.5rem;
+    font-size: 2.5vmax;
     width: 32%;
     position: absolute;
     bottom: 5rem;
@@ -78,7 +79,7 @@ font-family:D-DIN-Bold;
 
 
 .upcoming-launch-container p{
-    font-size: 20px;
+    font-size: 1.5vmax;
 }
 
 .upcoming-launch-button{
@@ -106,7 +107,7 @@ font-family:D-DIN-Bold;
 .rewatch-container{
     color: white;
     margin: 50px;
-    font-size: 2.5rem;
+    font-size: 2.5vmax;
     width: 32%;
     position: absolute;
     bottom: 5rem;
@@ -115,7 +116,7 @@ font-family:D-DIN-Bold;
 
 
 .rewatch-container p{
-    font-size: 20px;
+    font-size: 1.5vmax;
 }
 
 
@@ -150,7 +151,7 @@ font-family:D-DIN-Bold;
 
 /*       Menu Desplegable       */
 
-.slide-menu{
+.slide-menu, .menu-movil{
     display: flex;
     z-index: 3;
     flex-direction: column;
@@ -167,7 +168,7 @@ font-family:D-DIN-Bold;
     display: none;
 }
 
-.slide-menu a{
+.slide-menu a, .menu-movil a{
     margin: 0.5rem;
     border-bottom:1px solid grey;
     text-align: right;
@@ -223,7 +224,7 @@ font-family:D-DIN-Bold;
     bottom: 7rem;
     left: 3rem;
     color: white;
-    font-size: 3rem;
+    font-size: 3vmax;
 }
 .starship-button{
     position: relative;
@@ -251,7 +252,7 @@ font-family:D-DIN-Bold;
     position: absolute;
     bottom: 0;
     color: white;
-    font-size: 3rem;
+    font-size: 3vmax;
     bottom: 7rem;
     left: 3rem;
 }
@@ -273,7 +274,7 @@ font-family:D-DIN-Bold;
 .footer-section{
     height: 6rem;
     background-color: #000;
-    font-size: 0.8rem;
+    font-size: 0.8vmax;
 }
 
 
@@ -362,7 +363,7 @@ font-family:D-DIN-Bold;
     color: white;
     bottom: 10%;
     left: 50%;
-    font-size: 2rem;
+    font-size: 2vmax;
     rotate: 90deg;
     animation-iteration-count: infinite;
     animation-name: down;
@@ -375,3 +376,77 @@ font-family:D-DIN-Bold;
 100% {opacity: 0; bottom: 15px;}
 }
 
+
+
+.starship-content-container h4, .upcoming-launch-container h1, .rewatch-container h1,
+.starship-lunar-content-container p{
+    animation: refresh 1s;
+
+}
+
+.starship-button, .upcoming-launch-button, .rewatch-button, .starship-lunar-button{
+    animation: refresh 1.7s;
+}
+
+@keyframes refresh {
+    from{
+        opacity: 0;
+        transform: translateY(40px) ;
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/*      Media Query        */
+
+@media screen and (max-width: 600px){
+    
+    .starship-content-container{
+        font-size: 5.5vmax;
+    }
+
+    .upcoming-launch-container{
+        font-size: 4vmax;
+        width: 50%;
+    }
+
+    .rewatch-container{
+        font-size: 4.5vmax;
+        width: 50%;
+    }
+
+    .starship-lunar-content-container{
+        font-size: 6vmax;
+    }
+
+    .starship-lunar-content-container p{
+        width: 80%;
+    }
+
+    .nav-content1 div, .shop-animation{
+        display: none;
+    }
+
+    .nav-main-container{
+        justify-content: space-between;
+    }
+    
+    .nav-content1{
+        margin: auto;
+        font-size: 4vmax;
+        z-index: 5;
+    }
+
+    .nav-content2{
+        font-size: 2.5vmax;
+    }
+
+    .menu-movil{
+        display: flex;
+    }
+
+
+}

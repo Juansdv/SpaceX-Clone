@@ -1,0 +1,377 @@
+
+
+*{
+margin:0px;
+padding: 0px;
+font-family:D-DIN-Bold;
+}
+
+@font-face {
+    font-family:D-DIN-Bold;
+    src: url(D-DIN-Bold.otf);
+}
+
+/*          Nav Section          */
+
+
+
+.nav-section{
+    background-color:transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-main-container{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.nav-content1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.nav-content1 h1{
+    letter-spacing: 0.2em;
+}
+
+
+.nav-content1 p{
+    margin: 30px 10px;
+
+}
+
+.nav-content2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    gap: 30px;
+}
+
+
+/*       Upcoming Launch Section       */
+
+
+.upcoming-launch-section{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Vandy_desktop1_686164ccc7.jpg);
+    background-size: cover;
+    height: 39.1rem;
+    background-position: center center;
+    position: relative;
+    z-index: 0;
+}
+
+.upcoming-launch-container{
+    color: white;
+    margin: 50px;
+    font-size: 2.5rem;
+    width: 32%;
+    position: absolute;
+    bottom: 5rem;
+    left: 2rem;
+}
+
+
+.upcoming-launch-container p{
+    font-size: 20px;
+}
+
+.upcoming-launch-button{
+    padding: 1.2rem;
+    width: 12rem;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid white;
+    color:white;
+}
+
+
+/*       Recent Launch Section       */ 
+
+
+.recent-launch-section{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Intelsat40e_causeway_DSC_0385_desktop_f2530f7f25.jpg);
+    background-size: cover;
+    height: 39.1rem;
+    background-position: center center;
+    position: relative;
+    z-index: 0;
+}
+
+.rewatch-container{
+    color: white;
+    margin: 50px;
+    font-size: 2.5rem;
+    width: 32%;
+    position: absolute;
+    bottom: 5rem;
+    left: 2rem;
+}
+
+
+.rewatch-container p{
+    font-size: 20px;
+}
+
+
+
+.rewatch-button{
+    position: relative;
+    padding: 1.2rem;
+    width: 12rem;
+    background-color:transparent;
+    border: 2px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*       Menu Desplegable       */
+
+.slide-menu{
+    display: flex;
+    z-index: 3;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    height: 36.6rem;
+    color: white;
+    width: 16rem;
+    background-color: #000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 3s ease-in; 
+    display: none;
+}
+
+.slide-menu a{
+    margin: 0.5rem;
+    border-bottom:1px solid grey;
+    text-align: right;
+    width: 80%;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.slide-menu span{
+    border: none;
+    cursor: pointer;
+    width: min-content;
+}
+
+#fa-solid:nth-child(n){
+    display: none;
+}
+
+
+.fa-solid{
+    cursor: pointer;
+}
+
+#fa-solid:checked + .slide-menu{
+    display: flex;
+}
+
+
+
+.slide-menu a:hover{
+    color: #8B939B;
+    transition: all 0.5s ease;
+}
+
+/*          Starship Section          */
+
+.starship-section{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_CAROUSEL_DESKTOP_Sunset_Full_Stack_031522_DJI_0066_544ff6b208.jpg);
+    position: relative;
+    background-size: cover;
+    height: 39.1rem;
+    background-position: center center;
+    z-index: 0;
+}
+
+.starship-content-container p{
+    font-size: 20px;
+}
+
+.starship-content-container{
+    position: absolute;
+    bottom: 7rem;
+    left: 3rem;
+    color: white;
+    font-size: 3rem;
+}
+.starship-button{
+    position: relative;
+    padding: 1.2rem;
+    width: 12rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color:white;
+}
+
+
+
+/*      Starship Lunar Section        */
+
+.starship-lunar-section{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Desktop_5ebdeb0c6c.webp);
+    position: relative;
+    background-size: cover;
+    height: 39.1rem;
+    background-position: center center;
+    z-index: 0;
+}
+
+.starship-lunar-content-container{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 3rem;
+    bottom: 7rem;
+    left: 3rem;
+}
+
+.starship-lunar-button{
+    padding: 1.2rem;
+    width: 12rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color:white
+}
+
+.starship-lunar-content-container p{
+    width: 38%;
+}
+
+/*           Footer           */
+
+.footer-section{
+    height: 6rem;
+    background-color: #000;
+    font-size: 0.8rem;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    height: inherit;
+    margin: 0px auto;
+    color: #979797;
+}
+
+.footer-container a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer-container a:hover{
+    color:#8b939b;
+}
+
+
+
+
+/*       Animation section       */
+
+
+.rewatch-button:hover + .background-animation,
+.upcoming-launch-button:hover + .background-animation{
+    height: 27%;
+}
+
+.starship-button:hover + .background-animation{
+    height: 40%;
+}
+
+.starship-lunar-button:hover + .background-animation{
+    height: 20%;
+}
+
+.rewatch-button:hover, .starship-button:hover, .upcoming-launch-button:hover, .starship-lunar-button:hover{
+    color: black;
+    transition: all 0.4s ease;
+}
+
+.background-animation{
+    background-color: white;
+    position: absolute;
+    width: 12rem;
+    height:  0%;
+    bottom: 0;
+    transition: all .3s ease;
+    z-index: -1;
+}
+
+.nav-content1 div, .shop-animation{
+    position: relative;
+}
+
+.nav-animation{
+    content:"";
+    background-color: white;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    width: 0%;
+    height: 2px;
+    margin-bottom: -5px;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-content1 a:nth-child(n), .shop-animation a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-content1 a:nth-child(n):hover + .nav-animation, .shop-animation a:hover + .nav-animation{
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.starship-down{
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    left: 50%;
+    font-size: 2rem;
+    rotate: 90deg;
+    animation-iteration-count: infinite;
+    animation-name: down;
+    animation-duration: 3s;
+
+}
+
+@keyframes down {
+0% {opacity: 1; bottom: 70px;}
+100% {opacity: 0; bottom: 15px;}
+}
+

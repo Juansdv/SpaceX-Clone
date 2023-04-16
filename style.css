@@ -59,7 +59,7 @@ font-family:D-DIN-Bold;
 
 
 .upcoming-launch-section{
-    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Vandy_desktop1_686164ccc7.jpg);
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Trans_7_OS_56_0469_Desktop_e7dc1ccff2.jpg);
     background-size: cover;
     height: 39.1rem;
     background-position: center center;
@@ -236,6 +236,40 @@ font-family:D-DIN-Bold;
 }
 
 
+/*         Completed Mission Section             */
+
+.completed-mission-section{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/HOMEPAGE_CRS_27_Desktop_fcc63e2c6c.png);
+    position: relative;
+    background-size: cover;
+    height: 39.1rem;
+    background-position: center center;
+    z-index: 0;
+}
+
+.completed-mission-container{
+    position: absolute;
+    bottom: 7rem;
+    left: 3rem;
+    color: white;
+    font-size: 3vmax;
+    width: 50%;
+}
+
+.completed-mission-container p{
+    font-size: 20px;
+}
+
+.completed-mission-button{
+    position: relative;
+    padding: 1.2rem;
+    width: 12rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color:white;
+}
+
+
 
 /*      Starship Lunar Section        */
 
@@ -304,7 +338,8 @@ font-family:D-DIN-Bold;
 
 
 .rewatch-button:hover + .background-animation,
-.upcoming-launch-button:hover + .background-animation{
+.upcoming-launch-button:hover + .background-animation,
+.completed-mission-button:hover + .background-animation{
     height: 27%;
 }
 
@@ -316,7 +351,8 @@ font-family:D-DIN-Bold;
     height: 20%;
 }
 
-.rewatch-button:hover, .starship-button:hover, .upcoming-launch-button:hover, .starship-lunar-button:hover{
+.rewatch-button:hover, .starship-button:hover, .upcoming-launch-button:hover, .starship-lunar-button:hover,
+.completed-mission-button:hover{
     color: black;
     transition: all 0.4s ease;
 }
@@ -379,12 +415,13 @@ font-family:D-DIN-Bold;
 
 
 .starship-content-container h4, .upcoming-launch-container h1, .rewatch-container h1,
-.starship-lunar-content-container p{
+.starship-lunar-content-container p, .completed-mission-container h1{
     animation: refresh 1s;
 
 }
 
-.starship-button, .upcoming-launch-button, .rewatch-button, .starship-lunar-button{
+.starship-button, .upcoming-launch-button, .rewatch-button, .starship-lunar-button, 
+.completed-mission-button{
     animation: refresh 1.7s;
 }
 

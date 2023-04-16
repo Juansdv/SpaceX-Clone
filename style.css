@@ -55,7 +55,7 @@ font-family:D-DIN-Bold;
 }
 
 
-/*       Upcoming Launch Section       */
+/*       Upcoming Launch Section    (Transporter-7)   */
 
 
 .upcoming-launch-section{
@@ -92,7 +92,7 @@ font-family:D-DIN-Bold;
 }
 
 
-/*       Recent Launch Section       */ 
+/*       Recent Launch Section      (Intelsat IS-40E) */ 
 
 
 .recent-launch-section{
@@ -236,7 +236,7 @@ font-family:D-DIN-Bold;
 }
 
 
-/*         Completed Mission Section             */
+/*         Completed Mission Section       (CRS-27)      */
 
 .completed-mission-section{
     background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/HOMEPAGE_CRS_27_Desktop_fcc63e2c6c.png);
@@ -337,18 +337,18 @@ font-family:D-DIN-Bold;
 /*       Animation section       */
 
 
+.button-container{
+    position: relative;
+    width: min-content;
+    height: min-content;
+}
+
 .rewatch-button:hover + .background-animation,
 .upcoming-launch-button:hover + .background-animation,
-.completed-mission-button:hover + .background-animation{
-    height: 27%;
-}
-
-.starship-button:hover + .background-animation{
-    height: 40%;
-}
-
+.completed-mission-button:hover + .background-animation,
+.starship-button:hover + .background-animation,
 .starship-lunar-button:hover + .background-animation{
-    height: 20%;
+    height: 100%;
 }
 
 .rewatch-button:hover, .starship-button:hover, .upcoming-launch-button:hover, .starship-lunar-button:hover,

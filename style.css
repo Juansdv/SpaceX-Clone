@@ -1,4 +1,6 @@
-
+body{
+    display: grid;
+}
 
 *{
 margin:0px;
@@ -32,13 +34,14 @@ font-family:D-DIN-Bold;
 .nav-content1{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1vmax;
     text-align: center;
 }
 
 
 .nav-content1 h1{
     letter-spacing: 0.2em;
+    font-size: inherit;
 }
 
 
@@ -55,26 +58,26 @@ font-family:D-DIN-Bold;
 }
 
 
-/*       Upcoming Launch Section    (Transporter-7)   */
+/*       Upcoming Launch Section    (Starlink)   */
 
 
 .upcoming-launch-section{
-    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Trans_7_OS_56_0469_Desktop_e7dc1ccff2.jpg);
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Starlink_SLC_40_Desktop_cac54ee8bd.jpg);
     background-size: cover;
-    height: 39.1rem;
+    height:53vmax;
     background-position: center center;
     position: relative;
     z-index: 0;
+    order: -4;
 }
 
 .upcoming-launch-container{
     color: white;
-    margin: 50px;
     font-size: 2.5vmax;
     width: 32%;
     position: absolute;
-    bottom: 5rem;
-    left: 2rem;
+    bottom: 5vmax;
+    left: 2vmax;
 }
 
 
@@ -83,8 +86,8 @@ font-family:D-DIN-Bold;
 }
 
 .upcoming-launch-button{
-    padding: 1.2rem;
-    width: 12rem;
+    padding: 1.2vmax;
+    width: 12vmax;
     position: relative;
     background-color: transparent;
     border: 2px solid white;
@@ -92,26 +95,26 @@ font-family:D-DIN-Bold;
 }
 
 
-/*       Recent Launch Section      (Intelsat IS-40E) */ 
+/*       Recent Launch Section      (Transporter-7) */ 
 
 
 .recent-launch-section{
-    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Intelsat40e_causeway_DSC_0385_desktop_f2530f7f25.jpg);
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Trans_7_OS_56_0469_Desktop_e7dc1ccff2.jpg);
     background-size: cover;
-    height: 39.1rem;
+    height:53vmax;
     background-position: center center;
     position: relative;
     z-index: 0;
+    order: -2;
 }
 
 .rewatch-container{
     color: white;
-    margin: 50px;
     font-size: 2.5vmax;
     width: 32%;
     position: absolute;
-    bottom: 5rem;
-    left: 2rem;
+    bottom: 5vmax;
+    left: 2vmax;
 }
 
 
@@ -123,8 +126,8 @@ font-family:D-DIN-Bold;
 
 .rewatch-button{
     position: relative;
-    padding: 1.2rem;
-    width: 12rem;
+    padding: 1.2vmax;
+    width: 12vmax;
     background-color:transparent;
     border: 2px solid white;
     color:white;
@@ -210,9 +213,10 @@ font-family:D-DIN-Bold;
     background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_CAROUSEL_DESKTOP_Sunset_Full_Stack_031522_DJI_0066_544ff6b208.jpg);
     position: relative;
     background-size: cover;
-    height: 39.1rem;
+    height: 53vmax;
     background-position: center center;
     z-index: 0;
+    order: -5;
 }
 
 .starship-content-container p{
@@ -221,15 +225,15 @@ font-family:D-DIN-Bold;
 
 .starship-content-container{
     position: absolute;
-    bottom: 7rem;
-    left: 3rem;
+    bottom: 7vmax;
+    left: 3vmax;
     color: white;
     font-size: 3vmax;
 }
 .starship-button{
     position: relative;
-    padding: 1.2rem;
-    width: 12rem;
+    padding: 1.2vmax;
+    width: 12vmax;
     background-color: transparent;
     border: 2px solid white;
     color:white;
@@ -242,15 +246,16 @@ font-family:D-DIN-Bold;
     background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/HOMEPAGE_CRS_27_Desktop_fcc63e2c6c.png);
     position: relative;
     background-size: cover;
-    height: 39.1rem;
+    height: 53vmax;
     background-position: center center;
     z-index: 0;
+    order: -3;
 }
 
 .completed-mission-container{
     position: absolute;
-    bottom: 7rem;
-    left: 3rem;
+    bottom: 7vmax;
+    left: 3vmax;
     color: white;
     font-size: 3vmax;
     width: 50%;
@@ -262,8 +267,8 @@ font-family:D-DIN-Bold;
 
 .completed-mission-button{
     position: relative;
-    padding: 1.2rem;
-    width: 12rem;
+    padding: 1.2vmax;
+    width: 12vmax;
     background-color: transparent;
     border: 2px solid white;
     color:white;
@@ -277,9 +282,10 @@ font-family:D-DIN-Bold;
     background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Desktop_5ebdeb0c6c.webp);
     position: relative;
     background-size: cover;
-    height: 39.1rem;
+    height: 53vmax;
     background-position: center center;
     z-index: 0;
+    order: -1;
 }
 
 .starship-lunar-content-container{
@@ -287,13 +293,13 @@ font-family:D-DIN-Bold;
     bottom: 0;
     color: white;
     font-size: 3vmax;
-    bottom: 7rem;
-    left: 3rem;
+    bottom: 7vmax;
+    left: 3vmax;
 }
 
 .starship-lunar-button{
-    padding: 1.2rem;
-    width: 12rem;
+    padding: 1.2vmax;
+    width: 12vmax;
     background-color: transparent;
     border: 2px solid white;
     color:white
@@ -360,7 +366,7 @@ font-family:D-DIN-Bold;
 .background-animation{
     background-color: white;
     position: absolute;
-    width: 12rem;
+    width: 12vmax;
     height:  0%;
     bottom: 0;
     transition: all .3s ease;
@@ -417,6 +423,7 @@ font-family:D-DIN-Bold;
 .starship-content-container h4, .upcoming-launch-container h1, .rewatch-container h1,
 .starship-lunar-content-container p, .completed-mission-container h1{
     animation: refresh 1s;
+    font-size: inherit;
 
 }
 
@@ -439,30 +446,8 @@ font-family:D-DIN-Bold;
 
 /*      Media Query        */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 980px){
     
-    .starship-content-container{
-        font-size: 5.5vmax;
-    }
-
-    .upcoming-launch-container{
-        font-size: 4vmax;
-        width: 50%;
-    }
-
-    .rewatch-container{
-        font-size: 4.5vmax;
-        width: 50%;
-    }
-
-    .starship-lunar-content-container{
-        font-size: 6vmax;
-    }
-
-    .starship-lunar-content-container p{
-        width: 80%;
-    }
-
     .nav-content1 div, .shop-animation{
         display: none;
     }

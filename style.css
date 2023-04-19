@@ -62,7 +62,7 @@ font-family:D-DIN-Bold;
 
 
 .upcoming-launch-section{
-    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Starlink_SLC_40_Desktop_cac54ee8bd.jpg);
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_6_2_DSC_0634_desktop_29d2d77073.jpg);
     background-size: cover;
     height:53vmax;
     background-position: center center;
@@ -472,3 +472,13 @@ font-family:D-DIN-Bold;
 
 
 }
+
+@media screen and (max-width:500px){
+
+.starship-section, .upcoming-launch-section, .completed-mission-section, .recent-launch-section,
+.starship-lunar-section{
+    height: 31.7lh;
+}
+
+}
+    

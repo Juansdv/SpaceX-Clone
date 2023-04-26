@@ -17,7 +17,7 @@
 
         <div class="nav-main-container">
 
-            <div class="nav-content1">
+            <div class="nav-content1" id="nav-content1">
                 <h1>SPACEX</h1>
                 
                 <div class="falcon-container">
@@ -68,13 +68,14 @@
                     <a href="">SHOP</a>
                     <span class="nav-animation"></span>
                 </div>
-                <label for="fa-solid"><i class="fa-solid fa-bars" style="color: #ffffff;"></i><input type="checkbox" id="fa-solid">
 
-                <div class="slide-menu"><input type="checkbox" id="fa-solid">
+                <label for="fa-solid"><i onclick="efecto()" class="fa-solid fa-bars" style="color: #ffffff;"></i><input type="checkbox" id="fa-solid" onclick="efectoover()">
+
+                 <div class="slide-menu"><input type="checkbox" id="fa-solid">
 
                     <span>X</span>
 
-                    <div class="menu-movil">
+                <div class="menu-movil">
                     <a href="">FALCON 9</a>
                     <a href="">FALCON HEAVY</a>
                     <a href="">DRAGON</a>
@@ -83,21 +84,31 @@
                     <a href="">RIDESHARE</a>
                     <a href="">STARSHIELD</a>
                     <a href="">STARLINK</a>
-                    </div>
+                </div>
+
+                <a href="">MISSION</a>
+                <a href="">LAUNCHES</a>
+                <a href="">CARRERS</a>
+                <a href="">UPDATES</a>
+                <a href="">SHOP</a>
                     
-                    <a href="">MISSION</a>
-                    <a href="">LAUNCHES</a>
-                    <a href="">CARRERS</a>
-                    <a href="">UPDATES</a>
-                    <a href="">SHOP</a>
+
 
                 </div>
 
-            </label>
+            </label> 
             </div>
 
+            
+
         </div>
+
+        
+
+
     </nav>
+
+    
 
 
 </section>
@@ -105,7 +116,7 @@
 
 <!--                Starship Section              -->
 
-<section class="starship-section">
+<section class="starship-section" id="starship-section">
 
 
     <div class="starship-content-container">
@@ -116,7 +127,7 @@
     </div>
 
     <span class="starship-down"> > </span>
-
+    
 </section>
 
 <!--      Completed Mission Section      -->
@@ -215,6 +226,6 @@
 
 
 
-
+<script src="app.js"></script>
 </body>
 </html>
